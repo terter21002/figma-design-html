@@ -1,0 +1,326 @@
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    overflow: hidden;
+    background-color: #1ba4ff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .header-main {
+    background-color: #1ba4ff;
+    padding: 10px 20px;
+    display: flex;
+  }
+.search-bar {
+    background-color: #1ba4ff;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-select:active,
+.form-select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.search-bar .btn {
+    width: 6vw;
+    background-color: #1ba4ff;
+    border-color: #1ba4ff;
+    color: white;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.gallery-style {
+    background-color: dimgrey;
+    text-decoration: none;
+    color: white;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+  }
+
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  /* end fix */
+  .owl-nav>div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+
+  .owl-nav i {
+    font-size: 52px;
+  }
+
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+
+  .owl-nav .owl-next {
+    right: -30px;
+  }
+
+  .owl-nav.disabled {
+    display: flex!important;
+  }
+
+  .icon-group {
+    position: absolute;
+    right: 0;
+  }
+  .search-icon {
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 12px;
+    background-image: url('../img/searchicon.png');
+  }
+
+  ul.breadcrumb li+li:before {
+    padding-right: 14px !important;
+    padding-left: 8px !important;
+  }
+
+  .item-border-red {
+    color:red; 
+    border:solid 1px; 
+    border-color: red;
+    border-radius: 2px;
+  }
+
+  .item-border-blue {
+    color:#1ba4ff;
+    border:solid 1px; 
+    border-color: #1ba4ff;
+    border-radius: 2px;
+    background-color: #e3f4ff;
+  }
+  .item-border {
+    border:solid 1px;
+    border-color:darkgray;
+    border-radius:2px;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #1ba4ff !important;
+    border-color: #1ba4ff !important;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0b5ed7 !important;
+    border-color: #0a58ca !important;
+  }
+
+  .side-bar {
+    border-top: 3px solid lightgray;
+    border-right: 2px solid lightgray;
+    height: 70vw;
+  }
+
+  .content {
+    border-top: 3px solid lightgray;
+    height: 50vw;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+    box-shadow: inset 0 0px 0 rgba(0, 0, 0, 0.125) !important;
+  }
+
+  .accordion-button:focus {
+    box-shadow: 0 0 0 0 !important;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23YOUR_HEX_CODE'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+  }
+
+  .list-group-item {
+    border: 0px !important;
+  }
+
+  .color-gray {
+    color: gray !important;
+  }
+
+  .fs-px-13 {
+    font-size: 13px;
+  }
+
+  .color-white {
+    color: white !important;
+  }
+
+  .list-sidebar .list-group-item a {
+    background-color: white; 
+    color: rgb(88, 88, 88); 
+    display: block; 
+    padding: 8px; 
+    text-decoration: none; 
+    font-size: 14px;
+  }
+  
+  .list-sidebar .list-group-item a:hover {
+    background-color: #cdebff; 
+    color: #1ba4ff;
+    border-radius: 4px 0px 0px 4px;
+  }
+  
+  .list-sidebar .list-group-item a.active {
+    background-color: #cdebff; 
+    color: #1ba4ff;
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  .list-content .list-group-item a {
+    background-color: white; 
+    color: rgb(0, 0, 0); 
+    display: block; 
+    text-decoration: none; 
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+  }
+  .list-content .list-group-item {
+    background-color: white;
+    color: gray;
+    display: block; 
+    font-size: 13px;
+  }
+  
+  .list-content .list-group-item a:hover {
+    background-color: #ffffff;
+    color: #1ba4ff;
+
+  }
+
+  .list-group-item {
+    padding: 4px 0px 4px 10px !important;
+  }
+
+  .header-main .icon {
+    display: none;
+    color:white;
+    padding: 0 7px;
+  }
+
+  .header-main .icon:hover {
+    background-color: white;
+    color: #1ba4ff;
+  }
+
+  .resSidebar  {
+    width: 0px;
+    position: fixed;
+    z-index: 10001;
+    top: 57.5px;
+    left: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.3s;
+    background-color: white;
+    border-right: 1px solid lightgray;
+  }
+
+  .resSidebar .list-group-item a {
+    background-color: white; 
+    color: rgb(88, 88, 88); 
+    display: block; 
+    padding: 8px; 
+    text-decoration: none; 
+    font-size: 14px;
+    transition: 0.05s;
+  }
+  
+  .resSidebar .list-group-item a:hover {
+    background-color: #cdebff; 
+    color: #1ba4ff;
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .header-main button {display: none;}
+    .header-main a.icon {
+      float: left;
+      display: block;
+    }
+  }
+
+  .img-effect img:hover {
+    border:1px solid #1ba4ff;
+  }
+  .img-effect-active img{
+    border:1px solid #1ba4ff;
+  }
+
+  .tab .btn {
+    border-radius: 0px !important;
+    
+    
+  }
+  .tab .underline {
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+  }
+  .tab .text-underline {
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+  }
+
+  .tab .btn:focus {
+    box-shadow: none !important;
+  }
+
+  .tab .underline:hover {
+    border-bottom: 2px solid #1ba4ff;
+  }
+
+  .tab .text-underline:hover {
+    color: #1ba4ff;
+    border-bottom: 2px solid #1ba4ff;
+  }
+
+  .tab .underline.active {
+    border-bottom: 2px solid #1ba4ff; 
+  }
+
+  .tab .text-underline.active {
+    color: #1ba4ff;
+    border-bottom: 2px solid #1ba4ff; 
+  }
+
+  .table tr td {
+    padding-left: 20px;
+  }
+  
+  .table tr td:first-child {
+    color:gray;
+  }
+
+  .download-style {
+    text-decoration: none;
+    color: #1ba4ff;
+  }
+  .download-style:hover {
+    text-decoration: underline;
+    color: #1ba4ff;
+  }
+
